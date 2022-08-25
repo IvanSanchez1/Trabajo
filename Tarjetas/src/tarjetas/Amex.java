@@ -4,7 +4,7 @@ import java.sql.Date;
 
 public class Amex implements MarcaTarjeta{
 
-	//No puede dar mas que 5%
+	//No puede dar mas que  5%
 	@SuppressWarnings("deprecation")
 	@Override
 	public double calcularTasa(Date date) {
